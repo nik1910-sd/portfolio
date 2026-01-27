@@ -4,7 +4,7 @@ import linkedIcon from "/assets/linkedin.svg?url";
 import leetcodeIcon from "/assets/leetcode.svg?url";
 
 export default function Footer() {
-    // Function to handle smooth scroll back to the top of the page
+
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
@@ -15,8 +15,7 @@ export default function Footer() {
     return (
         <footer className="mt-32 w-full py-8 text-zinc-900 border-t border-zinc-200 bg-zinc-50 px-4 md:px-10">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-                
-                {/* LEFT: Made with Heart */}
+
                 <p className="flex items-center gap-1.5 text-sm font-medium order-2 md:order-1">
                     Made with 
                     <Heart 
@@ -29,7 +28,7 @@ export default function Footer() {
                 </p>
 
                 <div className="flex items-center gap-6 order-1 md:order-2">
-                    {/* Social Links */}
+    
                     <div className="flex items-center gap-5">
                         <a href="https://www.linkedin.com/in/nikhil-kumar-5a1584223" target="_blank" rel="noopener noreferrer" className="hover:-translate-y-1 transition-transform">
                             <img src={linkedIcon} alt="LinkedIn" className="size-6 grayscale hover:grayscale-0 transition-all" />

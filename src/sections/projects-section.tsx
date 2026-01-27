@@ -31,16 +31,16 @@ export default function ProjectsSection() {
     ];
 
     return (
-        <Section title="Projects">
+        <div id='projects-section'>
+            <Section title="Projects">
             <div className="table-auto mr-auto">
-                {/* GRID SYSTEM */}
+               
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 w-full mb-12">
                     {projects.map((project) => (
                         <div
                             key={project.title}
                             className="group flex flex-col h-full bg-white border border-zinc-300 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300"
                         >
-                            {/* IMAGE CONTAINER */}
                             <div className="relative overflow-hidden h-48 border-b border-gray-100">
                                 <img
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -49,7 +49,6 @@ export default function ProjectsSection() {
                                 />
                             </div>
 
-                            {/* CONTENT */}
                             <div className="p-6 flex flex-col grow">
                                 <h3 className="text-lg font-bold text-zinc-900">
                                     {project.title}
@@ -81,7 +80,6 @@ export default function ProjectsSection() {
                     ))}
                 </div>
 
-                {/* VIEW MORE OPTION */}
                 <div className="w-full border-t border-gray-100 pt-8 flex justify-center">
                     <a
                         href="https://github.com/nik1910-sd"
@@ -95,5 +93,6 @@ export default function ProjectsSection() {
                 </div>
             </div>
         </Section>
+        </div>
     );
 }

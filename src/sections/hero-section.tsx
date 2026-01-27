@@ -6,8 +6,7 @@ import leetcodeIcon from "/assets/leetcode.svg?url";
 
 
 export default function HeroSection() {
-    
-    // Smooth scroll function for the Contact button
+
     const scrollToContact = () => {
         const contactSection = document.getElementById("contact-section");
         if (contactSection) {
@@ -35,7 +34,7 @@ export default function HeroSection() {
                 Full-Stack Creative Develpoer
             </p>
             <div className="mt-6">
-                {/* PDF Resume Link */}
+      
                 <a 
                   href="/assets/resume.pdf" 
                   target="_blank" 
@@ -46,7 +45,6 @@ export default function HeroSection() {
                     <ArrowRightIcon className="group-hover:translate-x-0.5 transition ml-1 size-5" />
                 </a>
 
-                {/* Smooth Scroll Contact Button */}
                 <button 
                   onClick={scrollToContact}
                   className="border border-zinc-400 hover:bg-zinc-200/60 px-6 py-2.5 rounded-lg ml-4"
@@ -54,8 +52,7 @@ export default function HeroSection() {
                     Contact me
                 </button>
             </div>
-            
-            {/* Social Links remain the same */}
+
             <div className="space-x-6 mt-10">
                 <a href="https://www.linkedin.com/in/nikhil-kumar-5a1584223" target='new' className="inline-flex hover:-translate-y-0.5 transition ">
                     <img src={linkedIcon} alt="LinkedIn" className="size-7 grayscale hover:grayscale-0 transition-all" />

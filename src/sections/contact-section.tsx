@@ -16,11 +16,10 @@ export default function ContactSection() {
     return (
        <div id="contact-section"> 
         <Section title="Contact">
-            {/* Using a margin-top that matches your Skills list spacing */}
-            <div className="flex flex-col gap-5 mt-1">
-                
-                {/* EMAIL ROW */}
-                <div className="flex items-center justify-between group w-full max-w-xs">
+  
+            <div className="flex flex-col items-center gap-6  mt-4 w-full">
+           
+                <div className="flex items-center  gap-4 group ">
                     <div className="flex items-center gap-3">
                         <Mail size={16} className="text-zinc-500" />
                         <a href={`mailto:${email}`} className="text-zinc-900 hover:text-black transition-colors text-sm hover:underline">
@@ -35,8 +34,7 @@ export default function ContactSection() {
                     </button>
                 </div>
 
-                {/* PHONE ROW */}
-                <div className="flex items-center justify-between group w-full max-w-xs">
+                <div className="flex items-center gap-4 group ">
                     <div className="flex items-center gap-3">
                         <Phone size={16} className="text-zinc-500" />
                         <a href={`tel:${phone}`} className="text-zinc-900 hover:text-black transition-colors text-sm hover:underline">

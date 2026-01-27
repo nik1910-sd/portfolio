@@ -27,7 +27,8 @@ const SkillsSection: React.FC = () => {
   ];
 
   return (
-    <Section title="Skills">
+   <div id='skills-section'>
+     <Section title="Skills">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-2">
         {skillGroups.map((group) => (
           <div 
@@ -38,16 +39,11 @@ const SkillsSection: React.FC = () => {
               {group.category}
             </h3>
 
-            {/* Use items-center to align the fixed-width badges in the middle */}
             <div className="flex flex-col items-center gap-2.5">
               {group.skills.map((skill) => (
                 <span 
                   key={skill} 
-                  /* KEY CHANGES:
-                    1. Removed 'inline-flex' and 'items-start'
-                    2. Added 'w-full' (or 'w-32' for smaller ovals) to force identical sizing
-                    3. Added 'justify-center' to keep text in the middle
-                  */
+                 
                   className="flex items-center justify-center w-full max-w-[140px] text-zinc-700 text-[13px] font-medium bg-zinc-50 border border-zinc-200 rounded-full py-2 hover:bg-zinc-100 hover:text-zinc-900 transition-colors cursor-default shadow-sm"
                 >
                   {skill}
@@ -58,6 +54,7 @@ const SkillsSection: React.FC = () => {
         ))}
       </div>
     </Section>
+   </div>
   );
 };
 

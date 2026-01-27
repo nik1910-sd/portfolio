@@ -2,7 +2,8 @@ import Section from "../components/section";
 
 export default function AboutSection() {
     return (
-        <Section title="About">
+        <div id='about-section'>
+            <Section   title="About">
             <div className="text-sm/6.5">
                 <p>
                    I'm Nikhil Kumar, a fourth-year robotics and artificial intelligence
@@ -19,5 +20,7 @@ export default function AboutSection() {
                 </p>
             </div>
         </Section>
+        </div>
+        
     );
 }
