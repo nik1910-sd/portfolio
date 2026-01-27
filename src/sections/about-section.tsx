@@ -5,10 +5,17 @@ export default function AboutSection() {
         <Section title="About">
             <div className="text-sm/6.5">
                 <p>
-                    I’m Nikhil Kumar, a Full-Stack Developer with a passion for building end-to-end digital experiences that are fast, scalable, and user-focused. With expertise in the MERN stack and Next.js, I enjoy the challenge of transforming complex ideas into seamless web applications.
+                   I'm Nikhil Kumar, a fourth-year robotics and artificial intelligence
+                    B.Tech student who is passionate about creating intelligent, scalable digital solutions.
+                     I approach software engineering with an emphasis on efficiency and optimized logic 
+                     because my technical foundation is based on a solid understanding of data structures and algorithms.
                 </p>
                 <p className="mt-5">
-                    Whether it’s crafting responsive interfaces or developing robust backend systems, I aim to deliver solutions that are both reliable and impactful.
+                   As a Full-Stack Developer, I bridge the gap between solid backend architectures and smooth user interfaces, 
+                   leveraging a strong technical foundation in Next.js and the MERN stack." I am especially
+                    interested in the nexus between web development and generative AI, using contemporary 
+                    APIs to produce AI-powered, high-impact applications.
+
                 </p>
             </div>
         </Section>

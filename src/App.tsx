@@ -7,14 +7,15 @@ import HeroSection from "./sections/hero-section";
 import ProjectsSection from "./sections/projects-section";
 import SkillsSection from "./sections/skills-section";
 
+
 export default function App() {
     return (
-        <main className="max-md:px-4">
+        <main className="max-md:px-4 pd">
             <LenisScroll />
             <HeroSection />
             <AboutSection />
-            <ProjectsSection />
             <EducationSection />
+            <ProjectsSection />
             <SkillsSection />
             <ContactSection />
             <Footer />
