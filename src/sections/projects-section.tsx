@@ -14,18 +14,19 @@ export default function ProjectsSection() {
             github: "https://github.com/nik1910-sd/Glimpse-AI-thumbnail-generator",
             live: "https://glimpse-umber.vercel.app/"
         },
-        {
-            title: "Metro Navigator",
-            description: "A Java-based shortest path calculator for metro systems using Dijkstra and BFS/DFS algorithms.",
-            image: project2Image,
-            github: "https://github.com/nik1910-sd/Metro-Navigator",
-            live: "#"
-        },
+        
         {
             title: "Smart Med-Tracker",
             description: "OCR-powered medicine tracker that scans expiry dates and sends automated notifications.",
             image: project2Image,
             github: "https://github.com/nik1910-sd/Smart-Med-Tracker",
+            live: "#"
+        },
+        {
+            title: "Metro Navigator",
+            description: "A Java-based shortest path calculator for metro systems using Dijkstra and BFS/DFS algorithms.",
+            image: project2Image,
+            github: "https://github.com/nik1910-sd/Metro-Navigator",
             live: "#"
         },
     ];

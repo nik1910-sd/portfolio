@@ -9,18 +9,17 @@ const Navbar: React.FC = () => {
   };
 
   return (
-
-    <nav className="absolute top-0 left-0 w-full border-b border-zinc-200 bg-white px-6 py-6">
+    <nav className="absolute top-0 left-0 w-full border-b border-zinc-200 bg-white px-4 sm:px-6 py-4 sm:py-6">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
-   
+  
         <div 
-          className="text-zinc-900 font-bold text-lg tracking-tight cursor-pointer"
+          className="text-zinc-900 font-bold text-base sm:text-lg tracking-tight cursor-pointer whitespace-nowrap"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           Nikhil Kumar
         </div>
 
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-3 sm:gap-8">
           {[
             { name: 'About', id: 'about-section' },
             { name: 'Projects', id: 'projects-section' },
@@ -30,7 +29,7 @@ const Navbar: React.FC = () => {
             <button
               key={item.id}
               onClick={() => scrollToSection(item.id)}
-              className="text-sm font-medium text-zinc-700 hover:text-zinc-900 transition-colors"
+              className="text-[11px] sm:text-sm font-medium text-zinc-700 hover:text-zinc-900 transition-colors whitespace-nowrap"
             >
               {item.name}
             </button>
