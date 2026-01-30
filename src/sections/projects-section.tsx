@@ -1,5 +1,5 @@
 import Section from "../components/section";
-import { Github, ExternalLink, ArrowRight } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 import project1Image from  "/assets/quiz-room.png?url";
 import project2Image from  "/assets/glimpse-preview.png?url";
 import project3Image from  "/assets/codeReviewer.png?url";
