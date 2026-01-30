@@ -1,32 +1,41 @@
 import Section from "../components/section";
 import { Github, ExternalLink, ArrowRight } from "lucide-react";
-import project1Image from  "/assets/glimpse-preview.png?url";
-import project2Image from  "/assets/project-2.png?url";
+import project1Image from  "/assets/quiz-room.png?url";
+import project2Image from  "/assets/glimpse-preview.png?url";
+import project3Image from  "/assets/codeReviewer.png?url";
+import project4Image from  "/assets/metroNavigation.png?url";
 
 
 
 export default function ProjectsSection() {
     const projects = [
         {
+        title: "Quiz Room",
+        description: "An AI-powered platform that generates quizzes from YouTube URLs, PDFs, or topics in seconds. Currently in active development.",
+        image: project1Image, 
+        github: "#",
+        live: "#"
+    },
+        {
             title: "Glimpse AI",
             description: "Full-stack AI thumbnail generator with MERN & Gemini API. Features a real-time YouTube preview mockup.",
-            image: project1Image,
+            image: project2Image,
             github: "https://github.com/nik1910-sd/Glimpse-AI-thumbnail-generator",
             live: "https://glimpse-umber.vercel.app/"
         },
         
-        {
-            title: "Smart Med-Tracker",
-            description: "OCR-powered medicine tracker that scans expiry dates and sends automated notifications.",
-            image: project2Image,
-            github: "https://github.com/nik1910-sd/Smart-Med-Tracker",
-            live: "#"
-        },
+       {
+        title: "AI Code Reviewer",
+        description: "A completed tool that analyzes code to detect errors and provides optimization suggestions using LLMs.",
+        image: project3Image, 
+        github: "https://github.com/nik1910-sd/AI-Code-Reviewer",
+        live: "#"
+    },
         {
             title: "Metro Navigator",
             description: "A Java-based shortest path calculator for metro systems using Dijkstra and BFS/DFS algorithms.",
-            image: project2Image,
-            github: "https://github.com/nik1910-sd/Metro-Navigator",
+            image: project4Image,
+            github: "https://github.com/nik1910-sd/The-Metro-Navigation-App",
             live: "#"
         },
     ];
@@ -81,7 +90,7 @@ export default function ProjectsSection() {
                     ))}
                 </div>
 
-                <div className="w-full border-t border-gray-100 pt-8 flex justify-center">
+                {/* <div className="w-full border-t border-gray-100 pt-8 flex justify-center">
                     <a
                         href="https://github.com/nik1910-sd"
                         target="_blank"
@@ -91,7 +100,7 @@ export default function ProjectsSection() {
                         <span>More pojects</span>
                         <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                     </a>
-                </div>
+                </div> */}
             </div>
         </Section>
         </div>
