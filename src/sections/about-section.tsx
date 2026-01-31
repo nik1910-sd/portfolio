@@ -13,7 +13,7 @@ export default function AboutSection() {
                 </p>
                 <p className="mt-5">
                    As a Full-Stack Developer, I bridge the gap between solid backend architectures and smooth user interfaces, 
-                   leveraging a strong technical foundation in Next.js and the MERN stack." I am especially
+                   leveraging a strong technical foundation in Next.js and the MERN stack. I am especially
                     interested in the nexus between web development and generative AI, using contemporary 
                     APIs to produce AI-powered, high-impact applications.
 
